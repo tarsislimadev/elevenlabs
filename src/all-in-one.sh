@@ -22,4 +22,4 @@ previous_text="${previous_text} ${text}"
 
 echo "previous_text: ${#previous_text}"
 
-done < filename.txt
+done < all-in-one.txt
