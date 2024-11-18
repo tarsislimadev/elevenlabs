@@ -12,6 +12,8 @@ echo "all in one 1" >> all-in-one.txt
 echo "all in one 1" >> all-in-one.txt
 ```
 
+Run script "all in one"
+
 ```sh
 . ./src/all-in-one.sh
 ```
