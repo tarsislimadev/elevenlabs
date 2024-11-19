@@ -1,6 +1,6 @@
-. ./src/apikey.sh
+. ./var/apikey.sh
 
-. ./src/model_id.sh
+. ./var/model_id.sh
 
 previous_text=""
 

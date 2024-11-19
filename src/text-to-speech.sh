@@ -1,8 +1,8 @@
 text="${1}"
 
-. ./src/model_id.sh
+. ./var/model_id.sh
 
-. ./src/apikey.sh
+. ./var/apikey.sh
 
 curl --request POST \
  --url "https://api.elevenlabs.io/v1/text-to-speech/hwnuNyWkl9DjdTFykrN6" \
