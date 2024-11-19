@@ -4,6 +4,14 @@ To get and send data in Elevenlabs APIs
 
 ## how to use
 
+Set up API KEY in ./var/apikey.sh
+
+```sh
+# ./var/apikey.sh
+
+apikey="sk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
 Write in all-in-one.txt
 
 ```sh
