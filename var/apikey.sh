@@ -1,3 +1,1 @@
-apikey=""
-
-[ -z "${apikey}" ] && echo "Input API KEY:" && read apikey
+[ -z "${ELEVENLABS_APIKEY}" ] && echo "Input API KEY:" && read apikey
