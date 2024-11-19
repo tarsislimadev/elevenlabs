@@ -13,7 +13,7 @@ do
 echo "text: ${text}; ${#text}"
 
 curl -isSL -X POST "https://api.elevenlabs.io/v1/text-to-speech/hwnuNyWkl9DjdTFykrN6" \
- --header "xi-api-key: ${apikey}" \
+ --header "xi-api-key: ${ELEVENLABS_APIKEY}" \
  --header 'Content-Type: application/json' \
  --data "{ \"text\": \"${text}\" , \"model_id\": \"${model_id}\" , \"previous_text\": \"${previous_text}\",  \"language_code\": \"pt\" }" \
  --output "${text}.mp4"
